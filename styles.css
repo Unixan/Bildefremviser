@@ -6,21 +6,26 @@
 
 section {
   margin: auto;
-  width: 800px;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  max-width: 800px;
+  
   transition: transform 0.25s;
   will-change: transform;
 }
 
 section > div {
-  padding: 30px 0;
+  margin: 30px 0;
+  height: 600px;
+  width:  800px;
+  display: block;
 }
 
 section > div > img {
   object-fit: cover;
-  width: 800px;
-  height: 800px;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  
 }
 
 section > div:nth-child(1) {
